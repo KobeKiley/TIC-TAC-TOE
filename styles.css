@@ -1,0 +1,58 @@
+
+body {
+    background-color: #9a126a;
+    color: #070707;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('Space-Background-image-3.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Board styles */
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #a5b9ad;
+}
+
+/* Message styles */
+.message {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* Result styles */
+.result {
+    font-size: 1.8em;
+}
